@@ -1,0 +1,9 @@
+services:
+  - type: web
+    name: yt-url-streamer
+    env: docker
+    plan: free
+    disk: 50
+    instanceCount: 1
+    buildCommand: ""
+    startCommand: docker
